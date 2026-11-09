@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140">
+  <defs>
+    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#0097B2"/><stop offset="1" stop-color="#00B4A6"/></linearGradient>
+    <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#00B4A6"/><stop offset="1" stop-color="#0b5d6b"/></linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c"><rect width="1200" height="140" rx="22"/></clipPath>
+    <style>
+      @keyframes wave{0%{transform:translateX(0)}100%{transform:translateX(-600px)}}
+      .a{animation:wave 16s linear infinite}.b{animation:wave 24s linear infinite reverse}
+      .t{font-family:"Segoe UI",Helvetica,Arial,sans-serif;font-weight:600;font-size:14px;letter-spacing:6px;fill:#bfe9e4}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="140" fill="#0b0f16"/>
+    <g class="b" opacity="0.3"><path fill="url(#w2)" d="M0 72 Q150 36 300 72 T600 72 T900 72 T1200 72 T1500 72 T1800 72 V140 H0Z"/></g>
+    <g class="a" opacity="0.75" filter="url(#g)"><path fill="url(#w1)" d="M0 94 Q150 58 300 94 T600 94 T900 94 T1200 94 T1500 94 T1800 94 V140 H0Z"/></g>
+    <text class="t" x="600" y="44" text-anchor="middle">AUTHOR ENGINEERING · PROPTECH · ATR.CITY</text>
+  </g>
+</svg>

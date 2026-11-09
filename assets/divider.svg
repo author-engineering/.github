@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1">
+      <stop offset="0" stop-color="#0097B2" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00B4A6"/>
+      <stop offset="1" stop-color="#0097B2" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>@keyframes sh{0%,100%{opacity:.55}50%{opacity:1}} .s{animation:sh 3.4s ease-in-out infinite}</style>
+  </defs>
+  <rect class="s" x="0" y="11" width="1200" height="1.5" fill="url(#l)" filter="url(#g)"/>
+  <rect class="s" x="595" y="7" width="10" height="10" transform="rotate(45 600 12)" fill="none" stroke="#5fd4c8" stroke-width="1.5" filter="url(#g)"/>
+</svg>
